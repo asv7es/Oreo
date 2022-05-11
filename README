@@ -3,5 +3,6 @@ Class project for CS6501 Network Security and Privacy
 Blog site with vulnerabilities. 
 
 To execute run the following in terminal - python2 .\server.py
+Open the localhost URL displayed in terminal once the server is running.
 
 Admin user -  Username - "Administrator", password - "secret"

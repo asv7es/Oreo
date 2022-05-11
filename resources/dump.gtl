@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+<title>Debug Dump</title>
+</head>
+<body>
+<table>
+  <tr>
+    <td valign='top'>_cookie:&nbsp;</td>
+    <td valign='top'>{{_cookie:pprint}}</td>
+  </tr>
+  <tr>
+    <td valign='top'>_profile:&nbsp;</td>
+    <td valign='top'>{{_profile:pprint}}</td>
+  </tr>
+  <tr>
+    <td valign='top'>_db:&nbsp;</td>
+    <td valign='top'>{{_db:pprint}}</td>
+  </tr>
+</table>
+</body>
+</html>

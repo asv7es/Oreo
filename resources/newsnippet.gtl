@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Copyright 2017 Google Inc. -->
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+<title>New Post</title>
+[[include:base.css]][[/include:base.css]]
+</head>
+
+<body>
+[[include:menubar.gtl]][[/include:menubar.gtl]]
+<h2>New Post</h2>
+
+<div class='content'>
+<h3>Write your blog here.</h3>
+
+[[if:_message]]
+<div class='message'>{{_message}}</div>
+[[/if:_message]]
+
+<div style='width:600'>
+<form method='get' action='/{{_unique_id}}/newsnippet2'>
+<textarea name='snippet' rows='5' style='width:100%'></textarea>
+<br>
+<table summary='' style='width:100%'>
+<tr>
+<td align='right' valign='top'>
+  <input type='submit' value='Submit'>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+
+</html>
+
